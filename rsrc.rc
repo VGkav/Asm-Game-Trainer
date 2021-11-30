@@ -1,0 +1,15 @@
+#include "C:\masm32\include\resource.h"
+
+#define IDB_JPEG 4000
+#define SONG 500
+
+;SONG RCDATA "xm.xm"
+IDB_JPEG IMAGE "trn.jpg"
+IDR_ICON ICON DISCARDABLE "trn_ico.ico"
+
+VGA DIALOGEX 0,0,196,165
+FONT 8,"Tahoma",400,0,0
+STYLE WS_POPUP|WS_VISIBLE|DS_CENTER 
+BEGIN
+END
+
